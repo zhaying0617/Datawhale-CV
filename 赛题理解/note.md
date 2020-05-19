@@ -1,4 +1,4 @@
-#零基础入门CV-街道字符识别概要  
+零基础入门CV-街道字符识别概要  
   计算机视觉中字符识别，预测街道字符编码
   
 数据下载  
@@ -9,6 +9,6 @@
   
 数据标签  
   ![image](https://github.com/zhaying0617/Datawhale-CV/blob/master/微信图片_20200519233219.png)
-
+  <img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/微信图片_20200519233219.png">
 
         
