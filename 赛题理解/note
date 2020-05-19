@@ -1,2 +1,8 @@
-零基础入门CV-街道字符识别概要:
-计算机视觉中字符识别，预测街道字符编码
+零基础入门CV-街道字符识别概要  
+  计算机视觉中字符识别，预测街道字符编码
+数据下载  
+  训练集-http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_train.zip  http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_train.json  
+  验证集-http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_val.zip  http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_val.json  
+  测试集-http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_test_a.zip    
+  提交样本-http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_sample_submit_A.csv
+        
