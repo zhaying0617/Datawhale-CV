@@ -8,7 +8,6 @@
   提交样本-http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_sample_submit_A.csv  
   
 数据标签  
-  ![image](https://github.com/zhaying0617/Datawhale-CV/blob/master/微信图片_20200519233219.png)
-  <img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/微信图片_20200519233219.png">
+<img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/微信图片_20200519233219.png">
 
         
