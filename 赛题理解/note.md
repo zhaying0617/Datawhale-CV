@@ -38,8 +38,8 @@ for idx in range(arr.shape[1]):
     plt.subplot(1, arr.shape[1]+1, idx+2)  
     plt.imshow(img[arr[0, idx]:arr[0, idx]+arr[1, idx],arr[2, idx]:arr[2, idx]+arr[3, idx]])  
     plt.title(arr[4, idx])  
-    plt.xticks([]); plt.yticks([])      
-<img width="150" height="150" src=" https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/微信图片_20200520202205.png">  
+    plt.xticks([]); plt.yticks([])    
+<img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/微信图片_20200520202205.png">  
    
 
 
