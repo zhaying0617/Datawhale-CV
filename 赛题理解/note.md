@@ -8,6 +8,11 @@
   提交样本-http://tianchi-competition.oss-cn-hangzhou.aliyuncs.com/531795/mchar_sample_submit_A.csv  
   
 数据标签  
-<img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/微信图片_20200519233219.png">
+top-左上角坐标X  
+height-字符高度  
+left-左上角坐标y  
+width-字符宽度    
+label-字符编码  
+<img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/微信图片_20200519233219.png">  
 
         
