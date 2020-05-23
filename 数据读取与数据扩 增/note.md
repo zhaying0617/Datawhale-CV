@@ -101,7 +101,7 @@ Dataset:对数据集的封装及提供索引方式，并对数据样本进行读
                  transforms.RandomRotation(5),  
               ]))  
           
-在定义好的Dataset基础上构建DataLoder，对Dataset封装，提供批量读取并迭代
+DataLoder:在定义好的Dataset基础上构建DataLoder，对Dataset封装，提供批量读取并迭代
 
     class SVHNDataset(Dataset):
 
