@@ -13,10 +13,13 @@ Pillow
 
 OpenCV
 -------
-计算机视觉，数字图像处理，机器视觉。比Pillow强大，但学习成本也高
-官方文档    https://opencv.org/ 
-导入OpenCV库                           import cv2   
-读取图片                               img = cv2.imread('cat.jpg')  
-OpenCV默认颜色通道顺序为BRG，转化一下    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-转化为灰度图                           img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-边缘检测                               edges = cv2.Canny(img, 30, 70) cv2.imwrite('canny.jpg', edges)
+计算机视觉，数字图像处理，机器视觉。比Pillow强大，但学习成本也高  
+官方文档    https://opencv.org/   
+导入OpenCV库                           import cv2     
+读取图片                               img = cv2.imread('cat.jpg')    
+OpenCV默认颜色通道顺序为BRG，转化一下    img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)  
+<img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/图片1.png">    
+转化为灰度图                           img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  
+<img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/图片2.png">  
+边缘检测                               edges = cv2.Canny(img, 30, 70) cv2.imwrite('canny.jpg', edges)  
+<img width="150" height="150" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/图片3.png">  
