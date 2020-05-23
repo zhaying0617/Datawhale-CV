@@ -9,7 +9,9 @@ Pillow
 导入Pillow库                         from PIL import Image   
 读取图片                             im =Image.open(cat.jpg')  
 应用模糊滤镜                          im2 = im.filter(ImageFilter.BLUR) im2.save('blur.jpg', 'jpeg')  
-打开一个ipg文件，注意是当前路径        im = Image.open('cat.jpg') im.thumbnail((w//2, h//2)) im.save('thumbnail.jpg', 'jpeg')    
+打开一个ipg文件，注意是当前路径        im = Image.open('cat.jpg') im.thumbnail((w//2, h//2)) im.save('thumbnail.jpg', 'jpeg') 
+
+
 OpenCV
 -------
 计算机视觉，数字图像处理，机器视觉。比Pillow强大，但学习成本也高  
