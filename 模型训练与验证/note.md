@@ -7,8 +7,8 @@
 划分本地验证集:  
    留出法 Hold-Out  
    交叉验证法 Cross Validation  
-   自助采样法 BootStrap　　
-   <img width="300" height="400" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/3.2.jpg">  
+   自助采样法 BootStrap  
+   <img width="300" height="400" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/图片4.jpg">  
 
 
 
