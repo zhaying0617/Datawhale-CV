@@ -7,5 +7,5 @@
 深度学习中的集成学些
 -----
 Dropout——在每次训练批次中，随机让一部分的节点停止工作；但在预测过程中让所有的节点都工作  
-<img width="300" height="400" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/图片5.jng">  
+<img width="500" height="280" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/图片5.png">  
 
