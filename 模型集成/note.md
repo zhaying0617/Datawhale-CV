@@ -41,3 +41,25 @@ Dropout——在每次训练批次中，随机让一部分的节点停止工作�
             c5 = self.fc5(feat)
             c6 = self.fc6(feat)
             return c1, c2, c3, c4, c5, c6
+            
+TTA——测试集数据扩增（Test Time Augmentation);在训练和预测时都可以用；对同一个样本预测三次后对三次结果求平均
+
+    def predict(test_loader, model, tta=10):
+       model.eval()
+       test_pred_tta = None
+       # TTA 次数
+       for _ in range(tta):
+           test_pred = []
+           with torch.no_grad():
+              for i, (input, target) in enumerate(test_loader):
+                  c0, c1, c2, c3, c4, c5 = model(data[0])
+                  output = np.concatenate([c0.data.numpy(), c1.data.numpy(),
+                     c2.data.numpy(), c3.data.numpy(),
+                     c4.data.numpy(), c5.data.numpy()], axis=1)
+           test_pred = np.vstack(test_pred)
+           if test_pred_tta is None:
+              test_pred_tta = test_pred
+           else:
+              test_pred_tta += test_pred
+       return test_pred_tta
+test_pred.append(output)
