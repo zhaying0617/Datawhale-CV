@@ -4,7 +4,7 @@
 集成学习方法——Stacking Bagging Boosting  
 注 若硬件设备不允许——留出法    追求精度——交叉验证法  
    
-深度学习中的集成学些
+深度学习中的集成学习
 -----
 Dropout——在每次训练批次中，随机让一部分的节点停止工作；但在预测过程中让所有的节点都工作  
 <img width="500" height="280" src="https://github.com/zhaying0617/Datawhale-CV/blob/master/img-storage/图片5.png">  
