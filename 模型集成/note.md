@@ -56,10 +56,11 @@ TTA——测试集数据扩增（Test Time Augmentation);在训练和预测时�
                   output = np.concatenate([c0.data.numpy(), c1.data.numpy(),
                      c2.data.numpy(), c3.data.numpy(),
                      c4.data.numpy(), c5.data.numpy()], axis=1)
+                  test_pred.append(output)
            test_pred = np.vstack(test_pred)
            if test_pred_tta is None:
               test_pred_tta = test_pred
            else:
               test_pred_tta += test_pred
        return test_pred_tta
-test_pred.append(output)
+
